@@ -47,7 +47,6 @@ const App = () => {
        activeStyle={{ 
         transform: "scale(1.2)",
         transition: "all .5s ease",
-        color: "#25ca4e",
         }}
        to="/"
      >
