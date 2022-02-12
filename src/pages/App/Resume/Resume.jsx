@@ -40,17 +40,14 @@ const Resume = () => {
                 </span>
               </div>
               <div className="right">
-                <h3>Web Design</h3>
-                <h4>2018-2020 | Lisbon, Portugal</h4>
+                <h3>Freelancer Full-Stack</h3>
+                <h4>2021 - Present | Lisbon, Portugal</h4>
                 <p>
-                  Work experience is essential for getting a job. Whether it's a
-                  short work placement or a longer internship, work experience
-                  is always viewed favourably by employers and can help you
-                  decide your future career.
+                Freelancer developing my skills and learning as much as possible about web development.
                 </p>
               </div>
             </div>
-            <div className="experience">
+            {/* <div className="experience">
               <div className="left">
                 <span>
                   <AiOutlineAim />
@@ -83,7 +80,7 @@ const Resume = () => {
                   decide your future career.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="education-container">
@@ -101,13 +98,15 @@ const Resume = () => {
                 </span>
               </div>
               <div className="right">
-                <h3>Web Design</h3>
-                <h4>2018-2020 | Lisbon, Portugal</h4>
+                <h3>Programming Course (EQF LEVEL 4)</h3>
+                <h4>2016-2019 | Lisbon, Portugal</h4>
                 <p>
-                  Work experience is essential for getting a job. Whether it's a
-                  short work placement or a longer internship, work experience
-                  is always viewed favourably by employers and can help you
-                  decide your future career.
+                  600 hour internship.
+                  Computer Science Basic.
+                  Designing databases in SQL.
+                  Learning programming logic in C.
+                  Web Development Basics.
+                  Developed a final project with all of the knowledge acquired.
                 </p>
               </div>
             </div>
@@ -118,30 +117,10 @@ const Resume = () => {
                 </span>
               </div>
               <div className="right">
-                <h3>Web Design</h3>
-                <h4>2018-2020 | Lisbon, Portugal</h4>
+                <h3>Computer Science (EQF level 6)</h3>
+                <h4>2021 - Suspended | Lisbon, Portugal</h4>
                 <p>
-                  Work experience is essential for getting a job. Whether it's a
-                  short work placement or a longer internship, work experience
-                  is always viewed favourably by employers and can help you
-                  decide your future career.
-                </p>
-              </div>
-            </div>
-            <div className="education">
-              <div className="left">
-                <span>
-                  <AiOutlineAim />
-                </span>
-              </div>
-              <div className="right">
-                <h3>Web Design</h3>
-                <h4>2018-2020 | Lisbon, Portugal</h4>
-                <p>
-                  Work experience is essential for getting a job. Whether it's a
-                  short work placement or a longer internship, work experience
-                  is always viewed favourably by employers and can help you
-                  decide your future career.
+                This Degree aims to train specialists in the computer science, information technologies, networks, and telecommunications. On successful completion of this degree a student will be able to: Develop and realize projects involving computing solutions, for local network and internet environments, corporate networks of local and extended dimension and computer security projects.
                 </p>
               </div>
             </div>
