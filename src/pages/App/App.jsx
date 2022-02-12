@@ -46,11 +46,12 @@ const App = () => {
        className="tags"
        activeStyle={{ 
         transform: "scale(1.2)",
-        transition: "all .5s ease"
+        transition: "all .5s ease",
+        color: "#25ca4e",
         }}
        to="/"
      >
-        <FaHome />
+        <FaHome  />
      </NavLink>
             </Tooltip>
             <Tooltip title="About" placement="left">
@@ -59,6 +60,7 @@ const App = () => {
        activeStyle={{ 
          transform: "scale(1.4)",
          transition: "all .5s ease",
+         color: "#25ca4e",
          
          }}
        to="/about"
@@ -71,7 +73,8 @@ const App = () => {
        className="tags"
        activeStyle={{ 
         transform: "scale(1.4)",
-        transition: "all .5s ease"
+        transition: "all .5s ease",
+        color: "#25ca4e",
         }}
        to="/resume"
      >
@@ -84,7 +87,8 @@ const App = () => {
        activeStyle={{ 
         color: "#25ca4e",
         transform: "scale(1.4)",
-        transition: "all .5s ease"
+        transition: "all .5s ease",
+        color: "#25ca4e",
         }}
        to="/projects"
      >
@@ -96,7 +100,8 @@ const App = () => {
        className="tags"
        activeStyle={{ 
          transform: "scale(1.2)",
-         transition: "all .5s ease"
+         transition: "all .5s ease",
+         color: "#25ca4e",
          }}
        to="/contact"
      >
