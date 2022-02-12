@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineClose } from "react-icons/ai";
+import { CgClose } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
 import "./MobileMenu.scss";
 import "animate.css";
@@ -8,10 +8,13 @@ import { ImInfinite } from "react-icons/im";
 const MobileMenu = ({ setTopbarOpen }) => {
   return (
     <>
-      <div className="mobile animate__animated animate__fadeInLeft ">
-        {/* <span>
-          <AiOutlineClose id="close" onClick={() => setTopbarOpen(false)} />
-        </span> */}
+      <div className="mobile animate__animated animate__fadeInDown ">
+        <div className="icon">
+          
+        </div>
+        <span>
+          <CgClose id="close" onClick={() => setTopbarOpen(false)} />
+        </span> 
 
         <div className="links">
           <NavLink to="/" onClick={() => setTopbarOpen(false)}>

@@ -18,7 +18,7 @@ import Resume from "./Resume/Resume";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import { color, fontSize } from "@mui/system";
-import { AiOutlineMenu } from "react-icons/ai";
+import { FiMenu } from "react-icons/fi";
 import MobileMenu from "../MobileMenu/MobileMenu";
 
 const App = () => {
@@ -29,8 +29,8 @@ const App = () => {
     <>
       <div className="main-container">
         <div className="topbar">
-          <AiOutlineMenu id="mobileMenu" onClick={() => setTopbarOpen(true)}/>
-          {topbarOpen ? <MobileMenu setTopbarOpen={setTopbarOpen}/> : null}
+          <FiMenu id="mobileMenu" onClick={() => setTopbarOpen(true)}/>
+          {topbarOpen ? <MobileMenu setTopbarOpen={setTopbarOpen} topbarOpen={topbarOpen}/> : null}
           
         </div>
         <div className="sidebar">
@@ -58,7 +58,8 @@ const App = () => {
        className="tags"
        activeStyle={{ 
          transform: "scale(1.4)",
-         transition: "all .5s ease"
+         transition: "all .5s ease",
+         
          }}
        to="/about"
      >
