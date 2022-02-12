@@ -1,0 +1,197 @@
+.resume-container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.068);
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+    h1 {
+      font-size: 3em;
+      color: white;
+      font-weight: 700;
+    }
+
+    span {
+      color: #25ca4e !important;
+      font-size: 2em;
+    }
+  }
+
+  .caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        font-size: 2em;
+        color: white;
+        font-weight: 700;
+      }
+
+      span {
+        color: #25ca4e !important;
+        font-size: 2em;
+      }
+ 
+  }
+
+  .resumee-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    .experience-card {
+      background-color: rgb(0, 0, 0);
+      height: 450px;
+      width: 450px;
+      border-radius: 10px;
+      .experience {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+        .left {
+          span {
+            color: #25ca4e;
+            font-size: 30px;
+          }
+        }
+
+        .right {
+          margin-left: 10px;
+          h3 {
+            color: white;
+            font-size: 1.2em;
+          }
+          h4 {
+            color: #25ca4e;
+            font-size: 0.9em;
+            margin-top: 2px;
+          }
+          p {
+            color: white;
+            margin-top: 2px;
+          }
+        }
+      }
+    }
+
+    .education-card {
+      background-color: black;
+      height: 450px;
+      width: 450px;
+      border-radius: 10px;
+
+      .education{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+        .left {
+          span {
+            color: #25ca4e;
+            font-size: 30px;
+          }
+        }
+
+        .right {
+          margin-left: 10px;
+          h3 {
+            color: white;
+            font-size: 1.2em;
+          }
+          h4 {
+            color: #25ca4e;
+            font-size: 0.9em;
+            margin-top: 2px;
+          }
+          p {
+            color: white;
+            margin-top: 2px;
+          }
+        }
+      }
+    }
+  }
+
+.skills-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+  .skills-card{
+      background-color: rgb(0, 0, 0);
+        height: 250px;
+        width: 500px;
+        border-radius: 10px;
+        margin: 10px;
+
+        h3{
+          color: white;
+          display: flex;
+          justify-content: center;
+          padding: 10px;
+          font-size: 1.8em;
+        }
+
+        .imgs{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin-top: 30px;
+
+          #html{
+            height: 120px;
+          }
+
+          #jsx{
+          height: 80px;
+          }
+
+          #css{
+            height: 80px;
+          }
+
+          #sass{
+            height: 80px;
+          }
+
+          #boot{
+            height: 80px;
+          }
+          #mat{
+            height: 60px;
+          }
+
+          #js{
+            height: 80px;
+          }
+          #react{
+            height: 80px;
+          }
+          #node {
+            height: 80px;
+          }
+          #sql{
+            height: 80px;
+          }
+          #mongo{
+            height: 80px;
+          }
+        }
+    }
+}
+
+    
+  }
