@@ -1,6 +1,7 @@
 import React from "react";
 import { CgClose } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
+import { ReactComponent as Logo} from "../../assets/img/logo.svg";
 import "./MobileMenu.scss";
 import "animate.css";
 import { ImInfinite } from "react-icons/im";
@@ -58,7 +59,7 @@ const MobileMenu = ({ setTopbarOpen }) => {
           </NavLink>
         </div>
         <div className="icon">
-          <ImInfinite id="icon" />
+          <Logo fill="#25ca4e" id="icon" />
         </div>
       </div>
       <div

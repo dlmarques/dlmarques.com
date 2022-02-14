@@ -37,9 +37,12 @@
     .icon{
         display: flex;
         justify-content: center;
-        position: relative;
+        position: absolute;
+        height: 10%;
+
 
         svg{
+            
             color: #25ca4e;
         }
     }
