@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import "./App.scss";
 import Tooltip from "@mui/material/Tooltip";
-import logo from "../../assets/img/logo2.png";
+import { ReactComponent as Logo} from "../../assets/img/logo.svg";
 import Home from "./Home/Home";
 import About from "./About/About";
 import Resume from "./Resume/Resume";
@@ -34,11 +34,7 @@ const App = () => {
           
         </div>
         <div className="sidebar">
-          <img
-            src={logo}
-            alt=""
-            className="animate__animated animate__fadeInDown"
-          />
+          <Logo id="logo" fill="white"/>
 
           <nav className="links">
             <Tooltip title="Home" placement="left">
