@@ -3,7 +3,9 @@
   box-sizing: border-box;
   
 
-
+  #favicon{
+    color: white;
+  }
 }
 .main-container {
   width: 100vw;
@@ -28,14 +30,14 @@
     svg{
       font-size: 50px;
       cursor: pointer;
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       margin: 5px;
       border-radius: 20px;
      
     }
     @media (max-width: 1100px) {
       display: block;
-      background-color: rgb(255, 255, 255);
+      background-color: rgba(255, 255, 255, 0);
     }
   }
   .sidebar {
