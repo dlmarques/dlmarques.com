@@ -24,7 +24,7 @@
   }
 
   .about-card {
-    background-color: black;
+    background-color: #101010;
     width: 900px;
     height: 300px;
     margin: auto;
@@ -54,13 +54,14 @@
         font-family: "Noto Sans", sans-serif;
         font-family: "Roboto", sans-serif;
         font-family: "Ubuntu", sans-serif;
-        background: linear-gradient(45deg, transparent 5%, #0f0f0f 5%);
+        background: linear-gradient(45deg, transparent 5%, #151515 5%);
         border: 0;
         color: rgb(255, 255, 255);
         line-height: 6px;
         box-shadow: 6px 0px 0px #25ca4e !important;
         outline: transparent;
         position: relative;
+        cursor: pointer;
       }
 
       button::after {
@@ -136,7 +137,7 @@
   }
 
   .inter-card {
-    background-color: black;
+    background-color: #101010;
     max-width: 70vw;
     height: auto;
     margin: auto;
@@ -155,7 +156,7 @@
       position: relative;
       margin: 20px 0;
       transition: all 0.3s ease-in-out;
-      background-color: #0e0f10;
+      background-color: #151515;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -190,7 +191,7 @@
     user-select: none;
 
     .service-card{
-        background-color: rgb(0, 0, 0);
+        background-color: #101010;
         height: 250px;
         width: 500px;
         border-radius: 10px;
@@ -202,7 +203,7 @@
 
         .icon-service {
             margin-top: 10px;
-            background-color: #0e0f10;
+            background-color: #151515;
             height: 70px;
             width: 70px;
             display: flex;

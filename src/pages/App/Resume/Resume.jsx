@@ -147,7 +147,7 @@ const Resume = () => {
         <div className="skills-card">
           <h3>CSS</h3>
           <div className="imgs">
-            <img src={css} alt="" id="css" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="" id="css" />
             <img src={sass} alt="" id="sass" />
             <img src={bootstrap} alt="" id="boot" />
             <img src={materialize} alt="" id="mat" />

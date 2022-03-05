@@ -50,7 +50,7 @@
     gap: 5em;
 
     .experience-card {
-      background-color: rgb(0, 0, 0);
+      background-color: #101010;
       height: 420px;
       width: 380px;
       border-radius: 10px;
@@ -89,7 +89,7 @@
     }
 
     .education-card {
-      background-color: black;
+      background-color: #101010;
       height: 420px;
       width: 380px;
       border-radius: 10px;
@@ -136,7 +136,7 @@
   justify-content: center;
   
   .skills-card{
-      background-color: rgb(0, 0, 0);
+    background-color: #101010;
         height: 250px;
         width: 500px;
         border-radius: 10px;
@@ -159,42 +159,88 @@
 
           #html{
             height: 120px;
+            &:hover{
+              transform: scale(1.15);
+              transition: all .3s ease-in-out;
+            }
           }
 
           #jsx{
           height: 80px;
+          &:hover{
+            transform: scale(1.15);
+            transition: all .3s ease-in-out;
+          }
           }
 
           #css{
             height: 80px;
+            &:hover{
+              transform: scale(1.15);
+              transition: all .3s ease-in-out;
+            }
           }
 
           #sass{
             height: 60px;
+            &:hover{
+              transform: scale(1.15);
+              transition: all .3s ease-in-out;
+            }
           }
 
           #boot{
             height: 80px;
+            &:hover{
+              transform: scale(1.15);
+              transition: all .3s ease-in-out;
+            }
           }
           #mat{
             height: 50px;
+            &:hover{
+              transform: scale(1.15);
+              transition: all .3s ease-in-out;
+            }
           }
 
           #js{
             height: 80px;
+            &:hover{
+              transform: scale(1.15);
+              transition: all .3s ease-in-out;
+            }
           }
           #react{
             height: 80px;
+            &:hover{
+              transform: scale(1.15);
+              transition: all .3s ease-in-out;
+            }
           }
           #node {
             height: 80px;
+            &:hover{
+              transform: scale(1.15);
+              transition: all .3s ease-in-out;
+            }
           }
           #sql{
             height: 80px;
+            &:hover{
+              transform: scale(1.15);
+              transition: all .3s ease-in-out;
+            }
           }
           #mongo{
             height: 80px;
+            &:hover{
+              transform: scale(1.15);
+              transition: all .3s ease-in-out;
+            }
           }
+
+          
         }
     }
 }
