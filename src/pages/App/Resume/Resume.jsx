@@ -15,8 +15,10 @@ import mongo from "../../../assets/img/mongodb.svg";
 import "./Resume.scss";
 
 const Resume = () => {
+
+
   return (
-    <div className="resume-container animate__animated animate__fadeInDownBig">
+    <div className="resume-container animate__animated animate__fadeInDownBig" >
       <div className="title">
         <h1>Resume</h1>
         <span>
@@ -120,7 +122,7 @@ const Resume = () => {
                 <h3>Computer Science (EQF level 6)</h3>
                 <h4>2021 - Suspended | Lisbon, Portugal</h4>
                 <p>
-                This Degree aims to train specialists in the computer science, information technologies, networks, and telecommunications. On successful completion of this degree a student will be able to: Develop and realize projects involving computing solutions, for local network and internet environments, corporate networks of local and extended dimension and computer security projects.
+                This Degree aims to train specialists in the computer science, information technologies, networks, and telecommunications. 
                 </p>
               </div>
             </div>
