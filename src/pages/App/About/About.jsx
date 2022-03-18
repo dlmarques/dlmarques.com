@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./About.scss";
 import { ImInfinite } from "react-icons/im";
 import {
@@ -34,7 +35,12 @@ const About = () => {
         <div className="about-card">
           <div className="left">
             <img src={photo} alt="" />
-            <button>Download CV</button>
+            <Link
+            to={{ pathname: "https://drive.google.com/uc?export=download&id=16JBWfXmOnSJKUG7SSdDv8_ezKxAY9K9E" }}
+            target="_blank"
+            >
+              <button>Download CV</button>
+            </Link>
           </div>
           <div className="right">
             <p>
@@ -96,28 +102,28 @@ const About = () => {
         </div>
         <div className="services-container">
           <div className="service-card">
-          <div className="icon-service">
-                <BsDisplay/>
-                </div>
-                <h3>Web Design</h3>
+            <div className="icon-service">
+              <BsDisplay />
+            </div>
+            <h3>Web Design</h3>
           </div>
           <div className="service-card">
-          <div className="icon-service">
-                <FaCogs/>
-                </div>
-                <h3>Web Development</h3>
+            <div className="icon-service">
+              <FaCogs />
+            </div>
+            <h3>Web Development</h3>
           </div>
           <div className="service-card">
-          <div className="icon-service">
-                <FaMobileAlt/>
-                </div>
-                <h3>Responsive Design</h3>
+            <div className="icon-service">
+              <FaMobileAlt />
+            </div>
+            <h3>Responsive Design</h3>
           </div>
           <div className="service-card">
-          <div className="icon-service">
-                <FaMedkit/>
-                </div>
-                <h3>Quick Support</h3>
+            <div className="icon-service">
+              <FaMedkit />
+            </div>
+            <h3>Quick Support</h3>
           </div>
         </div>
       </div>
