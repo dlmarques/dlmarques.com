@@ -19,7 +19,7 @@ const Projects = () => {
 
       <div className="projects__container">
         <div className="project">
-          <img src={growy} alt="" id="growy" />
+          <img src={growy} alt="" id="img" />
           <div className="overlay">
             <div className="left">
               <span className="aim">
@@ -58,7 +58,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project">
-          <img src={dental} alt="" id="dental" />
+          <img src={dental} alt="" id="img" />
           <div className="overlay">
             <div className="left">
               <span className="aim">
