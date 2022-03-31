@@ -42,30 +42,14 @@ const Resume = () => {
                 </span>
               </div>
               <div className="right">
-                <h3>Freelancer Full-Stack</h3>
-                <h4>2021 - Present | Lisbon, Portugal</h4>
+                <h3>Frontend Web Developer</h3>
+                <h4>May 2021 - Jan 2022 | WYgroup </h4>
                 <p>
-                Freelancer developing my skills and learning as much as possible about web development.
+                Confidencial ongoing project, bug fixing, developed reusable components, implemented a state management, integrated multiple components.
                 </p>
               </div>
             </div>
-            {/* <div className="experience">
-              <div className="left">
-                <span>
-                  <AiOutlineAim />
-                </span>
-              </div>
-              <div className="right">
-                <h3>Web Design</h3>
-                <h4>2018-2020 | Lisbon, Portugal</h4>
-                <p>
-                  Work experience is essential for getting a job. Whether it's a
-                  short work placement or a longer internship, work experience
-                  is always viewed favourably by employers and can help you
-                  decide your future career.
-                </p>
-              </div>
-            </div>
+            
             <div className="experience">
               <div className="left">
                 <span>
@@ -73,16 +57,13 @@ const Resume = () => {
                 </span>
               </div>
               <div className="right">
-                <h3>Web Design</h3>
-                <h4>2018-2020 | Lisbon, Portugal</h4>
+                <h3>Freelancer Full-Stack</h3>
+                <h4>2019 - Present | Lisbon, Portugal</h4>
                 <p>
-                  Work experience is essential for getting a job. Whether it's a
-                  short work placement or a longer internship, work experience
-                  is always viewed favourably by employers and can help you
-                  decide your future career.
+                Freelancer developing my skills and learning as much as possible about web development.
                 </p>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="education-container">
