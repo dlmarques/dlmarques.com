@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Switch, Route, useRouteMatch, Link, NavLink } from "react-router-dom";
 import { HiHome, HiTrendingUp } from "react-icons/hi";
 import { FaUserAlt, FaHome } from "react-icons/fa";
@@ -24,10 +24,25 @@ import MobileMenu from "../MobileMenu/MobileMenu";
 const App = () => {
   let { path } = useRouteMatch();
   const [topbarOpen, setTopbarOpen] = useState(false);
+  const [vantaEffect, setVantaEffect] = useState(0)
+  const myRef = useRef(null)
+
+
+  useEffect(() => {
+    if(!vantaEffect){
+      setVantaEffect(NET({
+        el: myRef.current
+      }))
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy()
+    }
+  }, [vantaEffect])
+
 
   return (
     <>
-      <div className="main-container">
+      <div className="main-container" ref={myRef}>
         <div className="topbar">
           <FiMenu id="mobileMenu" onClick={() => setTopbarOpen(true)}/>
           {topbarOpen ? <MobileMenu setTopbarOpen={setTopbarOpen} topbarOpen={topbarOpen}/> : null}
