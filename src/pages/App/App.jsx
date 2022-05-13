@@ -20,6 +20,7 @@ import Contact from "./Contact/Contact";
 import { color, fontSize } from "@mui/system";
 import { FiMenu } from "react-icons/fi";
 import MobileMenu from "../MobileMenu/MobileMenu";
+import NET from 'vanta/dist/vanta.net.min'
 
 const App = () => {
   let { path } = useRouteMatch();
