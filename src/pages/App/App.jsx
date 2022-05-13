@@ -32,7 +32,8 @@ const App = () => {
   useEffect(() => {
     if(!vantaEffect){
       setVantaEffect(NET({
-        el: myRef.current
+        el: myRef.current,
+        color: 0xff00
       }))
     }
     return () => {
