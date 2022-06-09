@@ -1,10 +1,7 @@
-import React, { useState, useEffect, useRef } from "react";
-import { Switch, Route, useRouteMatch, Link, NavLink } from "react-router-dom";
-import { HiHome, HiTrendingUp } from "react-icons/hi";
+import React, { useState, useRef } from "react";
+import { Switch, Route, useRouteMatch, NavLink } from "react-router-dom";
 import { FaUserAlt, FaHome } from "react-icons/fa";
-import { MdEqualizer, MdOutlineWeb, MdSchool, MdMail } from "react-icons/md";
 import {
-  FaUserTie,
   FaAddressBook,
   FaBriefcase,
   FaEnvelope,
@@ -17,29 +14,13 @@ import About from "./About/About";
 import Resume from "./Resume/Resume";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
-import { color, fontSize } from "@mui/system";
 import { FiMenu } from "react-icons/fi";
 import MobileMenu from "../MobileMenu/MobileMenu";
-import NET from 'vanta/dist/vanta.net.min'
 
 const App = () => {
   let { path } = useRouteMatch();
   const [topbarOpen, setTopbarOpen] = useState(false);
-  const [vantaEffect, setVantaEffect] = useState(0)
   const myRef = useRef(null)
-
-
-  useEffect(() => {
-    if(!vantaEffect){
-      setVantaEffect(NET({
-        el: myRef.current,
-        color: 0xff00
-      }))
-    }
-    return () => {
-      if (vantaEffect) vantaEffect.destroy()
-    }
-  }, [vantaEffect])
 
 
   return (
@@ -100,7 +81,6 @@ const App = () => {
         color: "#25ca4e",
         transform: "scale(1.4)",
         transition: "all .5s ease",
-        color: "#25ca4e",
         }}
        to="/projects"
      >
@@ -121,7 +101,6 @@ const App = () => {
      </NavLink>
             </Tooltip>
           </nav>
-          {/*  <span>Copyright 2022 dlmarques</span> */}
         </div>
         <div className="content">
           <Switch>

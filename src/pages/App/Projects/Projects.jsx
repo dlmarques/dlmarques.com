@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { ImInfinite } from "react-icons/im";
 import { Link } from "react-router-dom";
 import { AiOutlineAim, AiOutlineGithub } from "react-icons/ai";
@@ -19,63 +19,6 @@ const Projects = () => {
       </div>
 
       <div className="projects__container">
-        <div className="project">
-          <img src={growy} alt="" id="img" />
-          <div className="overlay">
-            <div className="left">
-              <span className="aim">
-                <AiOutlineAim className="aim-icon" />
-              </span>
-              <div className="external-link-left">
-                  <span>
-                    <Link
-                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
-                      target="_blank"
-                    >
-                      <AiOutlineGithub />
-                    </Link>
-                  </span>
-                  <span>
-                    <Link
-                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
-                      target="_blank"
-                    >
-                      <BiLinkExternal />
-                    </Link>
-                  </span>
-                </div>
-            </div>
-            <div className="right">
-              <div className="text">
-                <h1>GrowYourself</h1>
-                <p>
-                  GrowYourself is a project for sports and wellness lovers, in
-                  order to help and bring more people to sport!
-                </p>
-                <h3>Skills used:</h3>
-                <p>React.js, SASS, Node.js, Express.js, MongoDB</p>
-                <div className="external-link">
-                  <span>
-                    <Link
-                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
-                      target="_blank"
-                    >
-                      <AiOutlineGithub />
-                    </Link>
-                  </span>
-                  <span>
-                    <Link
-                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
-                      target="_blank"
-                    >
-                      <BiLinkExternal />
-                    </Link>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="project">
           <img src={dental} alt="" id="img" />
           <div className="overlay">
@@ -163,10 +106,10 @@ const Projects = () => {
               <div className="text">
                 <h1>EzLearn</h1>
                 <p>
-                A Front-end Project to E-learning platform.
+                 E-learning platform project
                 </p>
                 <h3>Skills used:</h3>
-                <p>React.js, SASS</p>
+                <p>React.js, SASS, ExpressJS, MongoDB, Firebase</p>
                 <div className="external-link">
                   <span>
                     <Link
@@ -179,6 +122,63 @@ const Projects = () => {
                   <span>
                     <Link
                       to={{ pathname: "https://github.com/dlmarques/ezlearn" }}
+                      target="_blank"
+                    >
+                      <BiLinkExternal />
+                    </Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="project">
+          <img src={growy} alt="" id="img" />
+          <div className="overlay">
+            <div className="left">
+              <span className="aim">
+                <AiOutlineAim className="aim-icon" />
+              </span>
+              <div className="external-link-left">
+                  <span>
+                    <Link
+                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
+                      target="_blank"
+                    >
+                      <AiOutlineGithub />
+                    </Link>
+                  </span>
+                  <span>
+                    <Link
+                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
+                      target="_blank"
+                    >
+                      <BiLinkExternal />
+                    </Link>
+                  </span>
+                </div>
+            </div>
+            <div className="right">
+              <div className="text">
+                <h1>GrowYourself</h1>
+                <p>
+                  GrowYourself is a project for sports and wellness lovers, in
+                  order to help and bring more people to sport!
+                </p>
+                <h3>Skills used:</h3>
+                <p>React.js, SASS, Node.js, Express.js, MongoDB</p>
+                <div className="external-link">
+                  <span>
+                    <Link
+                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
+                      target="_blank"
+                    >
+                      <AiOutlineGithub />
+                    </Link>
+                  </span>
+                  <span>
+                    <Link
+                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
                       target="_blank"
                     >
                       <BiLinkExternal />

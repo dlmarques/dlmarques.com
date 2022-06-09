@@ -7,7 +7,6 @@ import {
   FaCogs,
   FaBook,
   FaMobileAlt,
-  FaMapMarkedAlt,
   FaMusic,
 } from "react-icons/fa";
 import {
@@ -44,7 +43,8 @@ const About = () => {
           </div>
           <div className="right">
             <p>
-              Hi! I'm Daniel Marques I'm a self-taught web developer very
+              Hi! I'm Daniel Marques. <br /><br /> 
+              I'm a self-taught web developer very
               passionate about creating and bringing my imaginary projects to
               reality. I'm Portuguese currently living in Lisbon. <br />
               <br />

@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import { ReactComponent as Logo} from "../../assets/img/logo.svg";
 import "./MobileMenu.scss";
 import "animate.css";
-import { ImInfinite } from "react-icons/im";
 
 const MobileMenu = ({ setTopbarOpen }) => {
   return (

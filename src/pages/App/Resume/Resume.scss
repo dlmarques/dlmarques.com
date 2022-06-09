@@ -30,7 +30,7 @@
       align-items: center;
 
       h1 {
-        font-size: 2em;
+        font-size: 2.2em;
         color: white;
         font-weight: 700;
       }
@@ -51,11 +51,12 @@
     .experience-card {
       background-color: #101010;
       height: 420px;
-      width: 380px;
+      width: 30vw;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding: 0 30px 0 30px;
       .experience {
         display: flex;
         flex-direction: row;
@@ -82,20 +83,24 @@
           p {
             color: white;
             margin-top: 2px;
+            font-weight: 300;
           }
         }
+      }
+      @media (max-width: 1200px){
+        width: 380px;
       }
     }
 
     .education-card {
       background-color: #101010;
       height: 420px;
-      width: 380px;
+      width: 30vw;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-
+      padding: 0 30px 0 30px;
       .education{
         display: flex;
         flex-direction: row;
@@ -122,8 +127,12 @@
           p {
             color: white;
             margin-top: 2px;
+            font-weight: 300;
           }
         }
+      }
+      @media (max-width: 1200px){
+        width: 380px;
       }
     }
   }
@@ -133,109 +142,50 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  
+  width: 65vw;
+  margin: auto;
   .skills-card{
-    background-color: #101010;
-        height: 250px;
-        width: 500px;
+        background-color: #101010;
+        height: auto;
+        width: 100%;
+        //500px width
         border-radius: 10px;
         margin: 10px;
+        padding: 30px;
 
         h3{
           color: white;
           display: flex;
           justify-content: center;
           padding: 10px;
-          font-size: 1.8em;
+          font-size: 2.5em;
+          font-weight: 300;
         }
 
-        .imgs{
+        .grid{
+          padding: 25px;
           display: flex;
+          justify-content: space-around;
           flex-wrap: wrap;
-          justify-content: space-evenly;
-          align-items: center;
-          margin-top: 30px;
-
-          #html{
-            height: 120px;
-            &:hover{
-              transform: scale(1.15);
+          gap: 25px;
+          div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            img{
+              height: 100px;
               transition: all .3s ease-in-out;
+              &:hover{
+                transform: scale(1.1);
+              }
             }
-          }
-
-          #jsx{
-          height: 80px;
-          &:hover{
-            transform: scale(1.15);
-            transition: all .3s ease-in-out;
-          }
-          }
-
-          #css{
-            height: 80px;
-            &:hover{
-              transform: scale(1.15);
-              transition: all .3s ease-in-out;
-            }
-          }
-
-          #sass{
-            height: 60px;
-            &:hover{
-              transform: scale(1.15);
-              transition: all .3s ease-in-out;
-            }
-          }
-
-          #boot{
-            height: 80px;
-            &:hover{
-              transform: scale(1.15);
-              transition: all .3s ease-in-out;
-            }
-          }
-          #mat{
-            height: 50px;
-            &:hover{
-              transform: scale(1.15);
-              transition: all .3s ease-in-out;
-            }
-          }
-
-          #js{
-            height: 80px;
-            &:hover{
-              transform: scale(1.15);
-              transition: all .3s ease-in-out;
-            }
-          }
-          #react{
-            height: 80px;
-            &:hover{
-              transform: scale(1.15);
-              transition: all .3s ease-in-out;
-            }
-          }
-          #node {
-            height: 80px;
-            &:hover{
-              transform: scale(1.15);
-              transition: all .3s ease-in-out;
-            }
-          }
-          #sql{
-            height: 80px;
-            &:hover{
-              transform: scale(1.15);
-              transition: all .3s ease-in-out;
-            }
-          }
-          #mongo{
-            height: 80px;
-            &:hover{
-              transform: scale(1.15);
-              transition: all .3s ease-in-out;
+            p{
+              padding-top: 20px;
+              color: #fff;
+              font-size: 1.3rem;
+              font-weight: 300;
             }
           }
 
