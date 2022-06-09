@@ -119,7 +119,7 @@ const Resume = () => {
       <div className="skills-container">
         <div className="skills-card">
           <h3>Frontend</h3>
-          <div className="grid">
+          <div className="grid one">
             <div>
               {" "}
               <img src={html} alt="" id="html" />
@@ -157,7 +157,7 @@ const Resume = () => {
         </div>
         <div className="skills-card">
           <h3>Backend</h3>
-          <div className="grid">
+          <div className="grid two">
             <div>
               {" "}
               <img src={sql} alt="" id="sql" />
@@ -176,7 +176,7 @@ const Resume = () => {
         </div>
         <div className="skills-card">
           <h3>Others</h3>
-          <div className="grid">
+          <div className="grid three">
             <div>
               <img src={git} alt="" id="git" />
               <p>Git</p>
@@ -199,6 +199,14 @@ const Resume = () => {
                 alt=""
               />
               <p>SEO</p>
+            </div>
+            <div>
+              <img src="https://www.gurukullinfosystems.com/asset/images/skill-4.png" alt="" />
+              <p>UX/UI</p>
+            </div>
+            <div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="" />
+              <p>Adobe Photoshop</p>
             </div>
           </div>
         </div>

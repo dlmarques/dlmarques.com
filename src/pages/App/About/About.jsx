@@ -2,13 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./About.scss";
 import { ImInfinite } from "react-icons/im";
-import {
-  FaMedkit,
-  FaCogs,
-  FaBook,
-  FaMobileAlt,
-  FaMusic,
-} from "react-icons/fa";
+import { FaMedkit, FaCogs, FaBook, FaMobileAlt, FaMusic } from "react-icons/fa";
 import {
   MdFastfood,
   MdVideogameAsset,
@@ -35,18 +29,22 @@ const About = () => {
           <div className="left">
             <img src={photo} alt="" />
             <Link
-            to={{ pathname: "https://drive.google.com/uc?export=download&id=16JBWfXmOnSJKUG7SSdDv8_ezKxAY9K9E" }}
-            target="_blank"
+              to={{
+                pathname:
+                  "https://drive.google.com/uc?export=download&id=16JBWfXmOnSJKUG7SSdDv8_ezKxAY9K9E",
+              }}
+              target="_blank"
             >
               <button>Download CV</button>
             </Link>
           </div>
           <div className="right">
             <p>
-              Hi! I'm Daniel Marques. <br /><br /> 
-              I'm a self-taught web developer very
-              passionate about creating and bringing my imaginary projects to
-              reality. I'm Portuguese currently living in Lisbon. <br />
+              Hi! I'm Daniel Marques. <br />
+              <br />
+              I'm a self-taught web developer very passionate about creating and
+              bringing my imaginary projects to reality. I'm Portuguese
+              currently living in Lisbon. <br />
               <br />
               Too passionate about my healthy lifestyle and training every day,
               I think it's one of my biggest hobbies, another one is undoubtedly
@@ -60,40 +58,43 @@ const About = () => {
             <ImInfinite />
           </span>
         </div>
-        <div className="inter-card">
-          <div className="inter-icon">
-            <MdFitnessCenter className="icons-int" />
-            <div className="desc-inter">Workout</div>
-          </div>
-          <div className="inter-icon">
-            <FaMusic className="icons-int" />
-            <div className="desc-inter">Music</div>
-          </div>
-          <div className="inter-icon">
-            <MdOutlineAirplanemodeActive className="icons-int" />
-            <div className="desc-inter">Travelling</div>
-          </div>
-          <div className="inter-icon">
-            <MdOutlineLocalMovies className="icons-int" />
-            <div className="desc-inter">Movies</div>
-          </div>
-          <div className="inter-icon">
-            <MdVideogameAsset className="icons-int" />
-            <div className="desc-inter">Video Games</div>
-          </div>
-          <div className="inter-icon">
-            <FaMobileAlt className="icons-int" />
-            <div className="desc-inter">Tech</div>
-          </div>
-          <div className="inter-icon">
-            <MdFastfood className="icons-int" />
-            <div className="desc-inter">Food</div>
-          </div>
-          <div className="inter-icon">
-            <FaBook className="icons-int" />
-            <div className="desc-inter">Books</div>
+        <div className="interests">
+          <div className="inter-card">
+            <div className="inter-icon">
+              <MdFitnessCenter className="icons-int" />
+              <div className="desc-inter">Workout</div>
+            </div>
+            <div className="inter-icon">
+              <FaMusic className="icons-int" />
+              <div className="desc-inter">Music</div>
+            </div>
+            <div className="inter-icon">
+              <MdOutlineAirplanemodeActive className="icons-int" />
+              <div className="desc-inter">Travelling</div>
+            </div>
+            <div className="inter-icon">
+              <MdOutlineLocalMovies className="icons-int" />
+              <div className="desc-inter">Movies</div>
+            </div>
+            <div className="inter-icon">
+              <MdVideogameAsset className="icons-int" />
+              <div className="desc-inter">Video Games</div>
+            </div>
+            <div className="inter-icon">
+              <FaMobileAlt className="icons-int" />
+              <div className="desc-inter">Tech</div>
+            </div>
+            <div className="inter-icon">
+              <MdFastfood className="icons-int" />
+              <div className="desc-inter">Food</div>
+            </div>
+            <div className="inter-icon">
+              <FaBook className="icons-int" />
+              <div className="desc-inter">Books</div>
+            </div>
           </div>
         </div>
+
         <div className="title">
           <h1>Services</h1>
           <span>

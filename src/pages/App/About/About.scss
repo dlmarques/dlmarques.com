@@ -11,7 +11,7 @@
     text-align: center;
 
     h1 {
-      font-size: 3em;
+      font-size: 4em;
       color: white;
       font-weight: 500;
     }
@@ -24,7 +24,7 @@
 
   .about-card {
     background-color: #101010;
-    width: 900px;
+    max-width: 60vw;
     height: 300px;
     margin: auto;
     border-radius: 10px;
@@ -98,7 +98,6 @@
       text-justify: inter-word;
       p {
         font-size: 1.3rem;
-        letter-spacing: 0.3px;
         color: white;
         font-weight: 300;
       }
@@ -110,7 +109,8 @@
       align-items: center;
       justify-content: space-evenly;
       max-width: 350px;
-      height: 500px;
+      height: 600px;
+      padding: 0 20px 0 20px;
       gap: 0;
 
       .left {
@@ -138,26 +138,39 @@
     }
   }
 
-  .inter-card {
-    background-color: #101010;
-    max-width: 70vw;
-    height: auto;
+  .interests{
     margin: auto;
     display: flex;
-    color: wheat;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 5px;
+    max-width: 60vw;
+    background-color: #101010;
     border-radius: 10px;
+
+    @media (max-width:1100px){
+      width: 350px;
+    }
+  }
+
+  .inter-card {
+    height: auto;
+    margin: auto;
+    color: #fff;
     padding: 0 20px 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    @media (max-width:1450px){
+      grid-template-columns: 1fr 1fr ;
+    }
+    @media (max-width:1100px){
+      grid-template-columns: 1fr;
+    }
 
     .inter-icon {
       border-radius: 10px;
-      min-width: 15vw;
+      width: 200px;
       min-height: 45px;
       position: relative;
-      margin: 20px 0;
+      margin: 20px;
       transition: all 0.3s ease-in-out;
       background-color: #151515;
       display: flex;
@@ -165,6 +178,9 @@
       justify-content: center;
       cursor: default;
       user-select: none;
+      @media (max-width:1450px){
+       width: 250px;
+      }
 
       &:hover {
         border: 1px solid #25ca4e;
