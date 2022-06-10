@@ -11,7 +11,7 @@
     padding: 50px;
 
     h1 {
-      font-size: 3em;
+      font-size: 2.75em;
       color: white;
       font-weight: 700;
     }
@@ -90,7 +90,7 @@
             svg {
               margin-top: 30px;
               color: #25ca4e !important;
-              font-size: 35px;
+              font-size: 2.5rem;
             }
           }
           .external-link-left {
@@ -139,7 +139,7 @@
 
             h1 {
               color: white;
-              font-size: 2rem;
+              font-size: 2.25rem;
 
               @media (max-width: 400px) {
                font-size: 18px;
@@ -150,7 +150,7 @@
             h3 {
               margin-top: 30px;
               color: #25ca4e;
-
+              font-size: 1.5rem;
               @media (max-width: 420px) {
                 margin-top: -5px;
               }
@@ -159,7 +159,7 @@
             }
             p {
               color: white;
-              font-size: 16px;
+              font-size: 1.2rem;
               font-weight: 300;
               @media (max-width: 450px) {
                 margin-top: -10px;

@@ -1,5 +1,5 @@
 .resume-container {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   z-index: 98;
   .title {
@@ -9,7 +9,7 @@
     padding: 50px;
 
     h1 {
-      font-size: 4em;
+      font-size: 2.75em;
       color: white;
       font-weight: 700;
     }
@@ -30,7 +30,7 @@
       align-items: center;
 
       h1 {
-        font-size: 2.2em;
+        font-size: 2.175em;
         color: white;
         font-weight: 700;
       }
@@ -50,7 +50,7 @@
 
     .experience-card {
       background-color: #101010;
-      height: 420px;
+      min-height: 420px;
       width: 30vw;
       border-radius: 10px;
       display: flex;
@@ -65,7 +65,7 @@
         .left {
           span {
             color: #25ca4e;
-            font-size: 30px;
+            font-size: 2.5rem;
           }
         }
 
@@ -77,7 +77,7 @@
           }
           h4 {
             color: #25ca4e;
-            font-size: 1em;
+            font-size: 1.175em;
             padding-top: 10px;
             font-weight: 300;
           }
@@ -96,14 +96,15 @@
 
     .education-card {
       background-color: #101010;
-      height: 420px;
+      min-height: 420px;
       width: 30vw;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 0 30px 0 30px;
+      padding: 0 40px 0 40px;
       .education{
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -111,7 +112,7 @@
         .left {
           span {
             color: #25ca4e;
-            font-size: 30px;
+            font-size: 2.5rem;
           }
         }
 
