@@ -32,12 +32,7 @@ const Resume = () => {
             </span>
           </div>
           <div className="experience-card">
-            <div className="experience">
-              <div className="left">
-                <span>
-                  <AiOutlineAim />
-                </span>
-              </div>
+            <div className="experience">     
               <div className="right">
                 <h3>Frontend Web Developer</h3>
                 <h4>May 2021 - Jan 2022 | WYgroup </h4>
@@ -50,11 +45,6 @@ const Resume = () => {
             </div>
 
             <div className="experience">
-              <div className="left">
-                <span>
-                  <AiOutlineAim />
-                </span>
-              </div>
               <div className="right">
                 <h3>Freelancer Full-Stack</h3>
                 <h4>2019 - Present | Lisbon, Portugal</h4>
@@ -75,30 +65,19 @@ const Resume = () => {
           </div>
           <div className="education-card">
             <div className="education">
-              <div className="left">
-                <span>
-                  <AiOutlineAim />
-                </span>
-              </div>
               <div className="right">
-                <h3>Programming Course (EQF LEVEL 4)</h3>
+                <h3>Programming Course - EQF LEVEL 4</h3>
                 <h4>2016-2019 | Lisbon, Portugal</h4>
                 <p>
-                  600 hour internship. Computer Science Basic. Designing
-                  databases in SQL. Learning programming logic in C. Web
+                  600 hour internship. Computer Science Basic. Learning programming logic in C. Web
                   Development Basics. Developed a final project with all of the
                   knowledge acquired.
                 </p>
               </div>
             </div>
             <div className="education">
-              <div className="left">
-                <span>
-                  <AiOutlineAim />
-                </span>
-              </div>
               <div className="right">
-                <h3>Computer Science (EQF level 6)</h3>
+                <h3>Computer Science - EQF level 6</h3>
                 <h4>2021 - Suspended | Lisbon, Portugal</h4>
                 <p>
                   This Degree aims to train specialists in the computer science,

@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div className="contact-container animate__animated animate__fadeInDownBig">
       <div className="title">
-        <h1>Contact me</h1>
+        <h1>Get in touch</h1>
         <span>
           <ImInfinite />
         </span>
