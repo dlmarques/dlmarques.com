@@ -94,7 +94,7 @@ const Projects = () => {
                   </span>
                   <span>
                     <Link
-                      to={{ pathname: "https://62c2d22db6409662ef1076d0--serene-madeleine-85e436.netlify.app/" }}
+                      to={{ pathname: "https://62c2ff7e44deab0008566b9a--serene-madeleine-85e436.netlify.app/" }}
                       target="_blank"
                     >
                       <BiLinkExternal />
@@ -121,7 +121,7 @@ const Projects = () => {
                   </span>
                   <span>
                     <Link
-                      to={{ pathname: "https://62c2d22db6409662ef1076d0--serene-madeleine-85e436.netlify.app/" }}
+                      to={{ pathname: "https://62c2ff7e44deab0008566b9a--serene-madeleine-85e436.netlify.app/" }}
                       target="_blank"
                     >
                       <BiLinkExternal />
