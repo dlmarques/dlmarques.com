@@ -94,7 +94,7 @@ const Projects = () => {
                   </span>
                   <span>
                     <Link
-                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
+                      to={{ pathname: "https://62c2d22db6409662ef1076d0--serene-madeleine-85e436.netlify.app/" }}
                       target="_blank"
                     >
                       <BiLinkExternal />
@@ -106,10 +106,10 @@ const Projects = () => {
               <div className="text">
                 <h1>EzLearn</h1>
                 <p>
-                 E-learning platform project
+                 E-learning platform project with Calendar to book your tasks, to-do list, courses list, and file manager.
                 </p>
                 <h3>Skills used:</h3>
-                <p>React.js, SASS, ExpressJS, MongoDB, Firebase</p>
+                <p>React.js, Redux, SASS, ExpressJS, MongoDB, Firebase</p>
                 <div className="external-link">
                   <span>
                     <Link
@@ -121,7 +121,7 @@ const Projects = () => {
                   </span>
                   <span>
                     <Link
-                      to={{ pathname: "https://github.com/dlmarques/ezlearn" }}
+                      to={{ pathname: "https://62c2d22db6409662ef1076d0--serene-madeleine-85e436.netlify.app/" }}
                       target="_blank"
                     >
                       <BiLinkExternal />
