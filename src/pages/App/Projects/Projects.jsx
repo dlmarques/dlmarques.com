@@ -29,16 +29,16 @@ const Projects = () => {
               <div className="external-link-left">
                   <span>
                     <Link
-                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
-                      target="_blank"
+                    /*   to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
+                      target="_blank" */
                     >
                       <AiOutlineGithub />
                     </Link>
                   </span>
                   <span>
                     <Link
-                      to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
-                      target="_blank"
+                    /*   to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
+                      target="_blank" */
                     >
                       <BiLinkExternal />
                     </Link>
@@ -57,16 +57,16 @@ const Projects = () => {
                 <div className="external-link">
                   <span>
                     <Link
-                      to={{ pathname: "https://github.com/dlmarques/DentalBooking" }}
-                      target="_blank"
+                     /*  to={{ pathname: "https://github.com/dlmarques/DentalBooking" }}
+                      target="_blank" */
                     >
                       <AiOutlineGithub />
                     </Link>
                   </span>
                   <span>
                     <Link
-                      to={{ pathname: "https://github.com/dlmarques/DentalBooking" }}
-                      target="_blank"
+                      /* to={{ pathname: "https://github.com/dlmarques/DentalBooking" }}
+                      target="_blank" */
                     >
                       <BiLinkExternal />
                     </Link>
