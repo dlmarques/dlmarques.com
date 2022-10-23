@@ -32,7 +32,17 @@ const Resume = () => {
             </span>
           </div>
           <div className="experience-card">
-            <div className="experience">     
+            <div className="experience">
+              <div className="right">
+                <h3>React Developer</h3>
+                <h4>May 2022 - Present | Devoteam </h4>
+                <p>
+                  React Developer, developing new features, integrating new
+                  components.
+                </p>
+              </div>
+            </div>
+            <div className="experience">
               <div className="right">
                 <h3>Frontend Web Developer</h3>
                 <h4>May 2021 - Jan 2022 | WYgroup </h4>
@@ -69,9 +79,9 @@ const Resume = () => {
                 <h3>Programming Course - EQF LEVEL 4</h3>
                 <h4>2016-2019 | Lisbon, Portugal</h4>
                 <p>
-                  600 hour internship. Computer Science Basic. Learning programming logic in C. Web
-                  Development Basics. Developed a final project with all of the
-                  knowledge acquired.
+                  600 hour internship. Computer Science Basic. Learning
+                  programming logic in C. Web Development Basics. Developed a
+                  final project with all of the knowledge acquired.
                 </p>
               </div>
             </div>
@@ -180,11 +190,17 @@ const Resume = () => {
               <p>SEO</p>
             </div>
             <div>
-              <img src="https://www.gurukullinfosystems.com/asset/images/skill-4.png" alt="" />
+              <img
+                src="https://www.gurukullinfosystems.com/asset/images/skill-4.png"
+                alt=""
+              />
               <p>UX/UI</p>
             </div>
             <div>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="" />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
+                alt=""
+              />
               <p>Adobe Photoshop</p>
             </div>
           </div>
