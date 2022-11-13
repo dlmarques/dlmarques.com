@@ -25,21 +25,20 @@
     flex-direction: column;
     align-items: center;
 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-      h1 {
-        font-size: 2.175em;
-        color: white;
-        font-weight: 700;
-      }
+    h1 {
+      font-size: 2.175em;
+      color: white;
+      font-weight: 700;
+    }
 
-      span {
-        color: #25ca4e !important;
-        font-size: 2em;
-      }
- 
+    span {
+      color: #25ca4e !important;
+      font-size: 2em;
+    }
   }
 
   .resumee-container {
@@ -61,6 +60,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         padding: 15px;
         .left {
           span {
@@ -90,10 +90,10 @@
           }
         }
       }
-      @media (max-width: 1200px){
+      @media (max-width: 1200px) {
         width: 380px;
       }
-      @media (max-width: 400px){
+      @media (max-width: 400px) {
         width: 350px;
       }
     }
@@ -107,7 +107,7 @@
       flex-direction: column;
       justify-content: center;
       padding: 40px;
-      .education{
+      .education {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -141,80 +141,76 @@
           }
         }
       }
-      @media (max-width: 1200px){
+      @media (max-width: 1200px) {
         width: 380px;
       }
-      @media (max-width: 400px){
+      @media (max-width: 400px) {
         width: 350px;
       }
     }
   }
 
-.skills-container{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 65vw;
-  margin: auto;
-  .skills-card{
-        background-color: #101010;
-        height: auto;
-        width: 100%;
-        border-radius: 10px;
-        margin: 10px;
-        padding: 30px;
-        min-width: 360px;
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 65vw;
+    margin: auto;
+    .skills-card {
+      background-color: #101010;
+      height: auto;
+      width: 100%;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 30px;
+      min-width: 360px;
 
-        h3{
-          color: white;
+      h3 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        font-size: 2.5em;
+        font-weight: 300;
+      }
+
+      .grid {
+        padding: 25px;
+        gap: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        @media (max-width: 1700px) {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+        @media (max-width: 1060px) {
+          grid-template-columns: 1fr 1fr;
+        }
+        @media (max-width: 720px) {
+          grid-template-columns: 1fr;
+        }
+        div {
           display: flex;
+          flex-direction: column;
           justify-content: center;
-          padding: 10px;
-          font-size: 2.5em;
-          font-weight: 300;
-        }
-
-        .grid{
-          padding: 25px;
-          gap: 25px;
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-          @media (max-width:1700px) {
-            grid-template-columns: 1fr 1fr 1fr;
-          }
-          @media (max-width: 1060px){
-            grid-template-columns: 1fr 1fr;
-          }
-          @media (max-width: 720px){
-            grid-template-columns: 1fr;
-          }
-          div{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            img{
-              height: 100px;
-              transition: all .3s ease-in-out;
-              &:hover{
-                transform: scale(1.1);
-              }
-            }
-            p{
-              padding-top: 20px;
-              color: #fff;
-              font-size: 1.3rem;
-              font-weight: 300;
-              text-align: center;
+          align-items: center;
+          padding: 20px;
+          img {
+            height: 100px;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+              transform: scale(1.1);
             }
           }
-
-          
+          p {
+            padding-top: 20px;
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: 300;
+            text-align: center;
+          }
         }
+      }
     }
-}
-
-    
   }
+}
