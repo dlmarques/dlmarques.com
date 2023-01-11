@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import { Link } from "react-router-dom";
 import "./About.scss";
 import { ImInfinite } from "react-icons/im";
@@ -12,7 +13,6 @@ import {
 } from "react-icons/md";
 import { BsDisplay } from "react-icons/bs";
 import photo from "../../../assets/img/infophoto.png";
-import "animate.css";
 
 const About = () => {
   return (
@@ -31,7 +31,7 @@ const About = () => {
             <Link
               to={{
                 pathname:
-                  "https://drive.google.com/uc?export=download&id=16JBWfXmOnSJKUG7SSdDv8_ezKxAY9K9E",
+                  "https://drive.google.com/uc?export=download&id=1N3xJ2p0nr6bqEE9-tLK3Ni2QYsY3-P4j",
               }}
               target="_blank"
             >
