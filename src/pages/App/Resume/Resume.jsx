@@ -1,6 +1,5 @@
 import React from "react";
 import { ImInfinite } from "react-icons/im";
-import { AiOutlineAim } from "react-icons/ai";
 import html from "../../../assets/img/html5.png";
 import jsx from "../../../assets/img/jsx.png";
 import sass from "../../../assets/img/sass.png";
@@ -11,6 +10,7 @@ import node from "../../../assets/img/nodejs.png";
 import sql from "../../../assets/img/sql.png";
 import mongo from "../../../assets/img/mongodb.svg";
 import ts from "../../../assets/img/ts.png";
+import pwa from "../../../assets/img/pwa.svg";
 import "./Resume.scss";
 
 const Resume = () => {
@@ -197,11 +197,8 @@ const Resume = () => {
               <p>UX/UI</p>
             </div>
             <div>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
-                alt=""
-              />
-              <p>Adobe Photoshop</p>
+              <img src={pwa} alt="" style={{ height: "50px" }} />
+              <p>Progressive Web App</p>
             </div>
           </div>
         </div>

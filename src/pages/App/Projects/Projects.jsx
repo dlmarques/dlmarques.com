@@ -30,52 +30,16 @@ const Projects = () => {
               <span className="aim">
                 <AiOutlineAim className="aim-icon" />
               </span>
-              <div className="external-link-left">
-                <span>
-                  <Link
-                  /*   to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
-                      target="_blank" */
-                  >
-                    <AiOutlineGithub />
-                  </Link>
-                </span>
-                <span>
-                  <Link
-                  /*   to={{ pathname: "https://github.com/dlmarques/GrowYourself" }}
-                      target="_blank" */
-                  >
-                    <BiLinkExternal />
-                  </Link>
-                </span>
-              </div>
             </div>
             <div className="right">
               <div className="text">
                 <h1>Dental Booking</h1>
                 <p>
-                  DentalBooking is an app to improve health services, to
+                  Dental Booking is an app to improve health services, to
                   facilitate contact between patient and clinic.
                 </p>
                 <h3>Skills used:</h3>
                 <p>React.js, SASS, Node.js, Express.js, MongoDB, Firebase</p>
-                <div className="external-link">
-                  <span>
-                    <Link
-                    /*  to={{ pathname: "https://github.com/dlmarques/DentalBooking" }}
-                      target="_blank" */
-                    >
-                      <AiOutlineGithub />
-                    </Link>
-                  </span>
-                  <span>
-                    <Link
-                    /* to={{ pathname: "https://github.com/dlmarques/DentalBooking" }}
-                      target="_blank" */
-                    >
-                      <BiLinkExternal />
-                    </Link>
-                  </span>
-                </div>
               </div>
             </div>
           </div>
@@ -139,71 +103,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project">
-          <img src={growy} alt="project" id="img" />
-          <div className="overlay">
-            <div className="left">
-              <span className="aim">
-                <AiOutlineAim className="aim-icon" />
-              </span>
-              <div className="external-link-left">
-                <span>
-                  <Link
-                    to={{
-                      pathname: "https://github.com/dlmarques/GrowYourself",
-                    }}
-                    target="_blank"
-                  >
-                    <AiOutlineGithub />
-                  </Link>
-                </span>
-                <span>
-                  <Link
-                    to={{
-                      pathname: "https://github.com/dlmarques/GrowYourself",
-                    }}
-                    target="_blank"
-                  >
-                    <BiLinkExternal />
-                  </Link>
-                </span>
-              </div>
-            </div>
-            <div className="right">
-              <div className="text">
-                <h1>GrowYourself</h1>
-                <p>
-                  GrowYourself is a project for sports and wellness lovers, in
-                  order to help and bring more people to sport!
-                </p>
-                <h3>Skills used:</h3>
-                <p>React.js, SASS, Node.js, Express.js, MongoDB</p>
-                <div className="external-link">
-                  <span>
-                    <Link
-                      to={{
-                        pathname: "https://github.com/dlmarques/GrowYourself",
-                      }}
-                      target="_blank"
-                    >
-                      <AiOutlineGithub />
-                    </Link>
-                  </span>
-                  <span>
-                    <Link
-                      to={{
-                        pathname: "https://github.com/dlmarques/GrowYourself",
-                      }}
-                      target="_blank"
-                    >
-                      <BiLinkExternal />
-                    </Link>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div className="project">
           <img src={omenia} alt="project" id="img" />
           <div className="overlay">
