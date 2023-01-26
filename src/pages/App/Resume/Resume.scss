@@ -155,8 +155,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 65vw;
+    width: calc(60vw + 5em);
     margin: auto;
+
     .skills-card {
       background-color: #101010;
       height: auto;
@@ -164,8 +165,13 @@
       border-radius: 10px;
       margin: 10px;
       padding: 30px;
-      min-width: 360px;
-
+      min-width: 380px;
+      @media (max-width: 1200px) {
+        width: calc(760px + 5em);
+      }
+      @media (max-width: 857px) {
+        width: 380px;
+      }
       h3 {
         color: white;
         display: flex;
@@ -180,13 +186,13 @@
         gap: 25px;
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        @media (max-width: 1700px) {
-          grid-template-columns: repeat(3, 1fr);
+        @media (max-width: 2328px) {
+          grid-template-columns: repeat(4, 1fr);
         }
-        @media (max-width: 1060px) {
+        @media (max-width: 1497px) {
           grid-template-columns: repeat(2, 1fr);
         }
-        @media (max-width: 720px) {
+        @media (max-width: 1089px) {
           grid-template-columns: 1fr;
         }
         div {
