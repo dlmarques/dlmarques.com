@@ -11,6 +11,10 @@ import sql from "../../../assets/img/sql.png";
 import mongo from "../../../assets/img/mongodb.svg";
 import ts from "../../../assets/img/ts.png";
 import pwa from "../../../assets/img/pwa.svg";
+import jest from "../../../assets/img/jest.svg";
+import vite from "../../../assets/img/vite.svg";
+import tailwind from "../../../assets/img/tailwind.svg";
+import { SiNextdotjs } from "react-icons/si";
 import "./Resume.scss";
 
 const Resume = () => {
@@ -34,33 +38,36 @@ const Resume = () => {
           <div className="experience-card">
             <div className="experience">
               <div className="right">
-                <h3>React Developer</h3>
+                <h3>Software Engineer</h3>
                 <h4>May 2022 - Present | Devoteam </h4>
                 <p>
                   React Developer, developing new features, integrating new
-                  components.
+                  components, implementing a resilient web architecture, unit
+                  testing, responsive design, develop reusable components,
+                  integrate multiple components
                 </p>
               </div>
             </div>
             <div className="experience">
               <div className="right">
-                <h3>Frontend Web Developer</h3>
+                <h3>Software Engineer</h3>
                 <h4>May 2021 - Jan 2022 | WYgroup </h4>
                 <p>
                   Confidencial ongoing project, bug fixing, developed reusable
                   components, implemented a state management, integrated
-                  multiple components.
+                  multiple components, unit testing.
                 </p>
               </div>
             </div>
 
             <div className="experience">
               <div className="right">
-                <h3>Freelancer Full-Stack</h3>
+                <h3>Software Engineer</h3>
                 <h4>2019 - Present | Lisbon, Portugal</h4>
                 <p>
-                  Freelancer developing my skills and learning as much as
-                  possible about web development.
+                  Design UX/UI, Developed web apps using React, Converted PSD's
+                  to code, Developed API's, CI/CD, Unit Testing, Responsive
+                  Design, Implemented multiple architectures
                 </p>
               </div>
             </div>
@@ -111,36 +118,46 @@ const Resume = () => {
           <div className="grid one">
             <div>
               {" "}
-              <img src={html} alt="" id="html" />
+              <img src={html} alt="html" id="html" />
               <p>HTML5</p>
             </div>
             <div>
               {" "}
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
-                alt=""
+                alt="css"
                 id="css"
               />
               <p>CSS3</p>
             </div>
             <div>
               {" "}
-              <img src={sass} alt="" id="sass" />
+              <img src={sass} alt="sass" id="sass" />
               <p>SASS</p>
             </div>
             <div>
-              <img src={js} alt="" id="js" />
+              {" "}
+              <img src={tailwind} alt="tailwind" id="tailwind" />
+              <p>Tailwind</p>
+            </div>
+            <div>
+              <img src={js} alt="javascript" id="js" />
               <p>JavaScript</p>
             </div>
             <div>
               {" "}
-              <img src={jsx} alt="" id="jsx" />
+              <img src={jsx} alt="react" id="react" />
               <p>ReactJS</p>
             </div>
             <div>
               {" "}
-              <img src={ts} alt="" id="ts" />
+              <img src={ts} alt="typescript" id="ts" />
               <p>TypeScript</p>
+            </div>
+            <div>
+              {" "}
+              <SiNextdotjs style={{ fontSize: "7rem", color: "white" }} />
+              <p>Next.js</p>
             </div>
           </div>
         </div>
@@ -149,25 +166,25 @@ const Resume = () => {
           <div className="grid two">
             <div>
               {" "}
-              <img src={sql} alt="" id="sql" />
+              <img src={sql} alt="sql" id="sql" />
               <p>PostgreSQL</p>
             </div>
             <div>
-              <img src={mongo} alt="" id="mongo" />
+              <img src={mongo} alt="mongodb" id="mongo" />
               <p>MongoDB</p>
             </div>
             <div>
               {" "}
-              <img src={node} alt="" id="node" />
+              <img src={node} alt="nodejs" id="node" />
               <p>NodeJS</p>
             </div>
           </div>
         </div>
         <div className="skills-card">
-          <h3>Others</h3>
+          <h3>Tools</h3>
           <div className="grid three">
             <div>
-              <img src={git} alt="" id="git" />
+              <img src={git} alt="git" id="git" />
               <p>Git</p>
             </div>
             <div>
@@ -179,7 +196,20 @@ const Resume = () => {
               <p>Redux</p>
             </div>
             <div>
-              <img src={aws} alt="" />
+              <img src={jest} alt="jest" />
+              <p>Jest</p>
+            </div>
+            <div>
+              <img src={vite} alt="vite" />
+              <p>Vite</p>
+            </div>
+          </div>
+        </div>
+        <div className="skills-card">
+          <h3>Others</h3>
+          <div className="grid three">
+            <div>
+              <img src={aws} alt="aws" />
               <p>AWS</p>
             </div>
             <div>
@@ -192,12 +222,16 @@ const Resume = () => {
             <div>
               <img
                 src="https://www.gurukullinfosystems.com/asset/images/skill-4.png"
-                alt=""
+                alt="seo"
               />
               <p>UX/UI</p>
             </div>
             <div>
-              <img src={pwa} alt="" style={{ height: "50px" }} />
+              <img
+                src={pwa}
+                alt="pwa"
+                style={{ height: "65px", marginTop: "20px" }}
+              />
               <p>Progressive Web App</p>
             </div>
           </div>

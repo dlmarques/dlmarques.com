@@ -179,12 +179,12 @@
         padding: 25px;
         gap: 25px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(8, 1fr);
         @media (max-width: 1700px) {
-          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-columns: repeat(3, 1fr);
         }
         @media (max-width: 1060px) {
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: repeat(2, 1fr);
         }
         @media (max-width: 720px) {
           grid-template-columns: 1fr;
@@ -196,7 +196,7 @@
           align-items: center;
           padding: 20px;
           img {
-            height: 100px;
+            height: 110px;
             transition: all 0.3s ease-in-out;
             &:hover {
               transform: scale(1.1);
