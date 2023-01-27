@@ -3,7 +3,6 @@ import { ImInfinite } from "react-icons/im";
 import { Link } from "react-router-dom";
 import { AiOutlineAim, AiOutlineGithub } from "react-icons/ai";
 import { BiLinkExternal } from "react-icons/bi";
-import growy from "../../../assets/img/growyourself.png";
 import dental from "../../../assets/img/dentalbooking.png";
 import ezlearn from "../../../assets/img/ezlearn.png";
 import omenia from "../../../assets/img/omenia.png";
