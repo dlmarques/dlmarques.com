@@ -38,7 +38,7 @@ const Resume = () => {
           <div className="experience-card">
             <div className="experience">
               <div className="right">
-                <h3>Software Engineer</h3>
+                <h3>Frontend Engineer</h3>
                 <h4>May 2022 - Present | Devoteam </h4>
                 <p>
                   React Developer, developing new features, integrating new
@@ -50,7 +50,7 @@ const Resume = () => {
             </div>
             <div className="experience">
               <div className="right">
-                <h3>Software Engineer</h3>
+                <h3>Frontend Engineer</h3>
                 <h4>May 2021 - Jan 2022 | WYgroup </h4>
                 <p>
                   Confidencial ongoing project, bug fixing, developed reusable
@@ -63,7 +63,7 @@ const Resume = () => {
             <div className="experience">
               <div className="right">
                 <h3>Software Engineer</h3>
-                <h4>2019 - Present | Lisbon, Portugal</h4>
+                <h4>2019 - 2021 | Freelancer</h4>
                 <p>
                   Design UX/UI, Developed web apps using React, Converted PSD's
                   to code, Developed API's, CI/CD, Unit Testing, Responsive
