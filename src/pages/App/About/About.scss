@@ -39,8 +39,14 @@
       flex-direction: column;
       padding-left: 20px;
       gap: 1em;
-      img {
-        height: 13em;
+
+      .my-img {
+        display: inline-block;
+        width: 180px;
+        height: 180px;
+        background: url("../../../assets/img/me.jpeg");
+        background-position: 50% 50%;
+        background-size: cover;
         border-radius: 50%;
         border: 3px solid #25ca4e;
       }
@@ -127,8 +133,6 @@
           height: 11em;
           border-radius: 50%;
         }
-  
-
       }
 
       .right {
@@ -143,21 +147,19 @@
     }
   }
 
-  .interests{
+  .interests {
     margin: auto;
     display: flex;
     justify-content: center;
-    max-width: 60vw;
     background-color: #101010;
     border-radius: 10px;
-
-    @media (max-width:1100px){
+    width: 1000px;
+    @media (max-width: 1450px) {
+      width: 600px;
+    }
+    @media (max-width: 1100px) {
       width: 350px;
     }
-    @media (max-width:500px){
-      max-width: 400px;
-    }
-   
   }
 
   .inter-card {
@@ -167,13 +169,12 @@
     padding: 0 20px 0 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    @media (max-width:1450px){
-      grid-template-columns: 1fr 1fr ;
+    @media (max-width: 1450px) {
+      grid-template-columns: 1fr 1fr;
     }
-    @media (max-width:1100px){
+    @media (max-width: 1100px) {
       grid-template-columns: 1fr;
     }
- 
 
     .inter-icon {
       border-radius: 10px;
@@ -188,8 +189,8 @@
       justify-content: center;
       cursor: default;
       user-select: none;
-      @media (max-width:1450px){
-       width: 250px;
+      @media (max-width: 1450px) {
+        width: 250px;
       }
 
       &:hover {
@@ -202,7 +203,6 @@
         float: left;
         font-size: 20px;
         color: #25ca4e !important ;
-        
       }
       .desc-inter {
         font-size: 1.3em;
@@ -210,10 +210,9 @@
         font-weight: 300;
       }
     }
-
   }
 
-  .services-container{
+  .services-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -221,48 +220,47 @@
     cursor: default;
     user-select: none;
 
-    .service-card{
-        background-color: #101010;
-        height: 250px;
-        width: 30vw;
-        border-radius: 10px;
-        margin: 10px;
+    .service-card {
+      background-color: #101010;
+      height: 250px;
+      width: 30vw;
+      border-radius: 10px;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .icon-service {
+        margin-top: 10px;
+        background-color: #151515;
+        height: 70px;
+        width: 70px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        border-radius: 50%;
 
-        .icon-service {
-            margin-top: 10px;
-            background-color: #151515;
-            height: 70px;
-            width: 70px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
+        &:hover {
+          border: 1px solid #25ca4e;
+          transition: all 0.5s ease-in-out;
+        }
 
-            &:hover {
-              border: 1px solid #25ca4e;
-              transition: all 0.5s ease-in-out;
-            }
+        svg {
+          font-size: 1.8em;
+          color: white;
+        }
+      }
+      h3 {
+        margin-top: 10px;
+        color: white;
+        font-size: 1.4em;
+        font-weight: 300;
+      }
 
-            svg {
-              font-size: 1.8em;
-              color: white;
-            }
-          }
-          h3 {
-            margin-top: 10px;
-            color: white;
-            font-size: 1.4em;
-            font-weight: 300;
-          }
-
-          @media (max-width: 1300px){
-            width: 400px;
-          }
-        
+      @media (max-width: 1300px) {
+        width: 400px;
+      }
     }
   }
 }

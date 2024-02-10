@@ -12,7 +12,7 @@ import {
   MdOutlineLocalMovies,
 } from "react-icons/md";
 import { BsDisplay } from "react-icons/bs";
-import photo from "../../../assets/img/infophoto.png";
+import photo from "../../../assets/img/me.jpeg";
 
 const About = () => {
   return (
@@ -27,11 +27,11 @@ const About = () => {
 
         <div className="about-card">
           <div className="left">
-            <img src={photo} alt="" />
+            <div className="my-img"></div>
             <Link
               to={{
                 pathname:
-                  "https://drive.google.com/uc?export=download&id=1h_Z6u2eQRqdfSYYk5x4EbHpUYcJ_bTpQ",
+                  "https://drive.google.com/uc?export=download&id=18U49zRhrNxcI4RnED3B7AQkpYcd9vxkd",
               }}
               target="_blank"
             >
@@ -40,15 +40,16 @@ const About = () => {
           </div>
           <div className="right">
             <p>
-              Hi! I'm Daniel Marques. <br />
+              Hi! I'm Daniel Marques, currently living in Lisbon, Portugal
               <br />
-              I'm a self-taught web developer very passionate about creating and
-              bringing my imaginary projects to reality. I'm Portuguese
-              currently living in Lisbon. <br />
               <br />
-              Too passionate about my healthy lifestyle and training every day,
-              I think it's one of my biggest hobbies, another one is undoubtedly
-              traveling and getting to know new cultures!
+              🚀 I'm a dynamic web developer on a mission to turn innovative
+              ideas into exceptional solutions.
+              <br />
+              <br />
+              💻 With a fervent passion for transforming concepts into reality,
+              I thrive on the excitement of coding and the artistry of web
+              development.
             </p>
           </div>
         </div>
