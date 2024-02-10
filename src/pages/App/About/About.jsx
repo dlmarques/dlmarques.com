@@ -12,7 +12,6 @@ import {
   MdOutlineLocalMovies,
 } from "react-icons/md";
 import { BsDisplay } from "react-icons/bs";
-import photo from "../../../assets/img/me.jpeg";
 
 const About = () => {
   return (
