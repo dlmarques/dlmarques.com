@@ -13,6 +13,7 @@ import ts from "../../../assets/img/ts.png";
 import pwa from "../../../assets/img/pwa.svg";
 import jest from "../../../assets/img/jest.svg";
 import vite from "../../../assets/img/vite.svg";
+import seo from "../../../assets/img/seo.svg";
 import tailwind from "../../../assets/img/tailwind.svg";
 import { SiNextdotjs } from "react-icons/si";
 import "./Resume.scss";
@@ -39,24 +40,53 @@ const Resume = () => {
             <div className="experience">
               <div className="right">
                 <h3>Frontend Engineer</h3>
-                <h4>May 2022 - Present | Devoteam </h4>
-                <p>
-                  React Developer, developing new features, integrating new
-                  components, implementing a resilient web architecture, unit
-                  testing, responsive design, develop reusable components,
-                  integrate multiple components
-                </p>
+                <h4>Jul 2023 - Present | IT People Innovation </h4>
+                <span>
+                  <ul>
+                    <li>UI Development</li>
+                    <li>Cross-Browser Compatibility</li>
+                    <li>Responsive Design</li>
+                    <li>Web Performance</li>
+                    <li>Accessibility</li>
+                    <li>Testing and Debugging</li>
+                    <li>Version Control</li>
+                    <li>Code Optimization</li>
+                    <li>UX</li>
+                    <li>Code Review</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+            <div className="experience">
+              <div className="right">
+                <h3>Frontend Engineer</h3>
+                <h4>May 2022 - Jul 2023 | Devoteam </h4>
+                <span>
+                  <ul>
+                    <li>UI Development</li>
+                    <li>Responsive Design</li>
+                    <li>Web Performance</li>
+                    <li>Accessibility</li>
+                    <li>UX</li>
+                    <li>Testing and Debugging</li>
+                    <li>Version Control</li>
+                    <li>Cross-Browser Compatibility</li>
+                  </ul>
+                </span>
               </div>
             </div>
             <div className="experience">
               <div className="right">
                 <h3>Frontend Engineer</h3>
                 <h4>May 2021 - Jan 2022 | WYgroup </h4>
-                <p>
-                  Confidencial ongoing project, bug fixing, developed reusable
-                  components, implemented a state management, integrated
-                  multiple components, unit testing.
-                </p>
+                <span>
+                  <ul>
+                    <li>UI Development</li>
+                    <li>Bug Fixing</li>
+                    <li>Convert PSD's to code</li>
+                    <li>Confidential ongoing project</li>
+                  </ul>
+                </span>
               </div>
             </div>
 
@@ -64,11 +94,20 @@ const Resume = () => {
               <div className="right">
                 <h3>Software Engineer</h3>
                 <h4>2019 - 2021 | Freelancer</h4>
-                <p>
-                  Design UX/UI, Developed web apps using React, Converted PSD's
-                  to code, Developed API's, CI/CD, Unit Testing, Responsive
-                  Design, Implemented multiple architectures
-                </p>
+                <span>
+                  <ul>
+                    <li>Desing UI/UX</li>
+                    <li>Developed web apps</li>
+                    <li>Developed APIs</li>
+                    <li>CI/CD</li>
+                    <li>Testing and Debugging</li>
+                    <li>CI/CD</li>
+                    <li>Responsive Desing</li>
+                    <li>Code Optimization</li>
+                    <li>Implemented multiple architectures</li>
+                    <li>Create and manage databases</li>
+                  </ul>
+                </span>
               </div>
             </div>
           </div>
@@ -117,12 +156,10 @@ const Resume = () => {
           <h3>Frontend</h3>
           <div className="grid one">
             <div>
-              {" "}
               <img src={html} alt="html" id="html" />
               <p>HTML5</p>
             </div>
             <div>
-              {" "}
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
                 alt="css"
@@ -131,12 +168,10 @@ const Resume = () => {
               <p>CSS3</p>
             </div>
             <div>
-              {" "}
               <img src={sass} alt="sass" id="sass" />
               <p>SASS</p>
             </div>
             <div>
-              {" "}
               <img src={tailwind} alt="tailwind" id="tailwind" />
               <p>Tailwind</p>
             </div>
@@ -145,17 +180,14 @@ const Resume = () => {
               <p>JavaScript</p>
             </div>
             <div>
-              {" "}
               <img src={jsx} alt="react" id="react" />
-              <p>ReactJS</p>
+              <p>React</p>
             </div>
             <div>
-              {" "}
               <img src={ts} alt="typescript" id="ts" />
               <p>TypeScript</p>
             </div>
             <div>
-              {" "}
               <SiNextdotjs style={{ fontSize: "7rem", color: "white" }} />
               <p>Next.js</p>
             </div>
@@ -165,7 +197,6 @@ const Resume = () => {
           <h3>Backend</h3>
           <div className="grid two">
             <div>
-              {" "}
               <img src={sql} alt="sql" id="sql" />
               <p>PostgreSQL</p>
             </div>
@@ -174,7 +205,6 @@ const Resume = () => {
               <p>MongoDB</p>
             </div>
             <div>
-              {" "}
               <img src={node} alt="nodejs" id="node" />
               <p>NodeJS</p>
             </div>
@@ -213,16 +243,13 @@ const Resume = () => {
               <p>AWS</p>
             </div>
             <div>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
-                alt=""
-              />
+              <img src={seo} alt="seo" />
               <p>SEO</p>
             </div>
             <div>
               <img
                 src="https://www.gurukullinfosystems.com/asset/images/skill-4.png"
-                alt="seo"
+                alt="ux/ui"
               />
               <p>UX/UI</p>
             </div>
