@@ -71,7 +71,7 @@
 
         .right {
           margin-left: 10px;
-          text-align: center;
+
           h3 {
             color: white;
             font-size: 1.5em;
@@ -82,13 +82,17 @@
             padding-top: 10px;
             font-weight: 300;
           }
-          li {
+          h5 {
+            color: #25ca4e;
+            font-size: 0.85rem;
+            padding-top: 5px;
+            font-weight: 300;
+          }
+          p {
             color: white;
             padding-top: 20px;
             font-weight: 300;
             font-size: 1.15rem;
-            list-style-type: "👉";
-            padding-inline-start: 1ch;
           }
         }
       }
@@ -124,7 +128,7 @@
 
         .right {
           margin-left: 10px;
-          text-align: center;
+
           h3 {
             color: white;
             font-size: 1.5em;

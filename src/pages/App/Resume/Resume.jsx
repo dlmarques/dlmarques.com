@@ -40,74 +40,55 @@ const Resume = () => {
             <div className="experience">
               <div className="right">
                 <h3>Frontend Engineer</h3>
-                <h4>Jul 2023 - Present | IT People Innovation </h4>
-                <span>
-                  <ul>
-                    <li>UI Development</li>
-                    <li>Cross-Browser Compatibility</li>
-                    <li>Responsive Design</li>
-                    <li>Web Performance</li>
-                    <li>Accessibility</li>
-                    <li>Testing and Debugging</li>
-                    <li>Version Control</li>
-                    <li>Code Optimization</li>
-                    <li>UX</li>
-                    <li>Code Review</li>
-                  </ul>
-                </span>
+                <h5>IT People Innovation - Millenium BCP</h5>
+                <h4>Jul 2023 - Present</h4>
+                <p>
+                  I developed an internal React framework that would speed up
+                  development across teams by baking in authentication, forms,
+                  and translations as key features to keep projects consistent.
+                  I built a service catalog web app that reduced the time taken
+                  to set up a frontend by auto-generating boilerplate. I managed
+                  projects independently, leading the planning and execution
+                  with new developers through boot camps or pair programming.
+                  First, underlined: robust architecture, code quality, user
+                  experience. Continuously improved the framework in a number of
+                  projects through code reviews, researches, and the
+                  implementation of new tools.
+                </p>
               </div>
             </div>
             <div className="experience">
               <div className="right">
                 <h3>Frontend Engineer</h3>
-                <h4>May 2022 - Jul 2023 | Devoteam </h4>
-                <span>
-                  <ul>
-                    <li>UI Development</li>
-                    <li>Responsive Design</li>
-                    <li>Web Performance</li>
-                    <li>Accessibility</li>
-                    <li>UX</li>
-                    <li>Testing and Debugging</li>
-                    <li>Version Control</li>
-                    <li>Cross-Browser Compatibility</li>
-                  </ul>
-                </span>
+                <h5>Devoteam - A-To-Be</h5>
+                <h4>May 2022 - Jul 2023</h4>
+                <p>
+                  I redeveloped a legacy web component from React to Angular,
+                  closely with another frontend developer, mostly designing
+                  reusable and responsive components from given Figma designs.
+                  My main emphases are optimization of the web, real-time
+                  integrations of WebSocket for CCTV monitoring, and code
+                  reviewing for cross-browser compatibility. I also frequently
+                  presented demos to stakeholders to keep development aligned
+                  with business goals and managed version control and debugging
+                  to facilitate timely and smooth delivery of results.
+                </p>
               </div>
             </div>
-            <div className="experience">
-              <div className="right">
-                <h3>Frontend Engineer</h3>
-                <h4>May 2021 - Jan 2022 | WYgroup </h4>
-                <span>
-                  <ul>
-                    <li>UI Development</li>
-                    <li>Bug Fixing</li>
-                    <li>Convert PSD's to code</li>
-                    <li>Confidential ongoing project</li>
-                  </ul>
-                </span>
-              </div>
-            </div>
-
             <div className="experience">
               <div className="right">
                 <h3>Software Engineer</h3>
-                <h4>2019 - 2021 | Freelancer</h4>
-                <span>
-                  <ul>
-                    <li>Desing UI/UX</li>
-                    <li>Developed web apps</li>
-                    <li>Developed APIs</li>
-                    <li>CI/CD</li>
-                    <li>Testing and Debugging</li>
-                    <li>CI/CD</li>
-                    <li>Responsive Desing</li>
-                    <li>Code Optimization</li>
-                    <li>Implemented multiple architectures</li>
-                    <li>Create and manage databases</li>
-                  </ul>
-                </span>
+                <h5>Freelancing</h5>
+                <h4>2019 - 2022</h4>
+                <p>
+                  As a freelancer, I developed full-stack web applications using
+                  the MERN stack, transforming PSD and Figma designs into
+                  functional code. I handled code reviews, bug fixing, and
+                  focused on UX/UI, web performance, and security. Additionally,
+                  I implemented multiple architectures, managed databases, and
+                  ensured smooth CI/CD pipelines, while thoroughly testing and
+                  debugging throughout the process.
+                </p>
               </div>
             </div>
           </div>
@@ -122,7 +103,7 @@ const Resume = () => {
           <div className="education-card">
             <div className="education">
               <div className="right">
-                <h3>Programming Course - EQF LEVEL 4</h3>
+                <h3>Programming Course - EQF 4</h3>
                 <h4>2016-2019 | Lisbon, Portugal</h4>
                 <p>
                   600 hour internship. Computer Science Basic. Learning
@@ -133,7 +114,7 @@ const Resume = () => {
             </div>
             <div className="education">
               <div className="right">
-                <h3>Computer Science - EQF level 6</h3>
+                <h3>Computer Science - EQF 6</h3>
                 <h4>2021 - Suspended | Lisbon, Portugal</h4>
                 <p>
                   This Degree aims to train specialists in the computer science,
