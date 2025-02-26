@@ -30,7 +30,7 @@ const About = () => {
             <Link
               to={{
                 pathname:
-                  "https://drive.google.com/file/d/1xmrTUS0EbcqnGG5hxVFDZufHZ66VrreY/view?usp=sharing",
+                  "https://drive.google.com/file/d/1sjjq-8Fm0BgiduSxhx6wHTjEqm4dtOPG/view?usp=sharing",
               }}
               target="_blank"
             >
