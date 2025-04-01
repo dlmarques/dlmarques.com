@@ -105,6 +105,21 @@ export default function Hero() {
                 size="lg"
                 className="group w-full sm:w-auto"
               >
+                <Link
+                  href="https://drive.google.com/file/d/1sjjq-8Fm0BgiduSxhx6wHTjEqm4dtOPG/view?usp=sharing"
+                  target="_blank"
+                >
+                  <span className="relative z-10 transition-colors duration-300">
+                    Download CV
+                  </span>
+                </Link>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="group w-full sm:w-auto"
+              >
                 <Link href="#projects">
                   <span className="relative z-10 transition-colors duration-300">
                     View Projects
